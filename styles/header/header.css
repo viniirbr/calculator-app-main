@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+}
+
+.header--theme1 {
+    color: var(--main-text-theme1);
+}
+
+.header--theme2 {
+    color: var(--main-text-theme2);
+    
+}
+
+.header--theme3 {
+    color: var(--main-text-theme3);
+    
+}

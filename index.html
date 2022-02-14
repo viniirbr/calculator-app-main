@@ -1,26 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculadora</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/root.css">
+  <link rel="stylesheet" href="styles/body.css">
+  <link rel="stylesheet" href="styles/calculador.css">
+  <link rel="stylesheet" href="styles/header/header.css">
+  <link rel="stylesheet" href="styles/header/upperHeader.css">
+  <link rel="stylesheet" href="styles/header/upperHeader__title.css">
+  <link rel="stylesheet" href="styles/header/upperheader__theme.css">
+  <link rel="stylesheet" href="styles/header/upperHeader__themeTitle.css">
+  <link rel="stylesheet" href="styles/header/upperHeader__toogle.css">
+  <link rel="stylesheet" href="styles/header/header__visor.css">
+  <link rel="stylesheet" href="styles/main/keypad.css">
+  <link rel="stylesheet" href="styles/main/button.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
+<body class="body--theme1">
+  <main class="calculator" style="background: red;">
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <header class="header header--theme1" style="background: green;">
+
+      <div class="upperHeader">
+        <h3 class="upperHeader__title">calc</h3>
+        <div class="upperHeader__theme">
+          <h4 class="upperHeader__themeTitle">THEME</h4>
+          <label class="upperHeader__toogle">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <input type="text" class="header__visor header__visor--theme1">
+    </header>
+
+    <div class="keypad">
+
+    </div>
+  </main>
+
 </body>
+
 </html>

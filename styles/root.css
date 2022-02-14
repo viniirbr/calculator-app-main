@@ -1,0 +1,39 @@
+:root {
+    --main-background-theme1: hsl(222, 26%, 31%);
+    --toogle-background-theme1: hsl(223, 31%, 20%);
+    --screen-background-theme1: hsl(224, 36%, 15%);
+    --key-background-theme1: hsl(225, 21%, 49%);
+    --key-shadow-theme1: hsl(224, 28%, 35%);
+    --equals-background-theme1: hsl(6, 63%, 50%);
+    --equals-shadow-theme1: hsl(6, 70%, 34%);
+    --reset-background-theme1: hsl(30, 25%, 89%);
+    --reset-shadow-theme1: hsl(28, 16%, 65%);
+    --main-text-theme1: white;
+    --second-text-theme1: hsl(221, 14%, 31%);
+
+    --main-background-theme2: hsl(222, 26%, 31%);
+    --toogle-background-theme2: hsl(223, 31%, 20%);
+    --screen-background-theme2: hsl(224, 36%, 15%);
+    --key-background-theme2: hsl(225, 21%, 49%);
+    --key-shadow: hsl(224, 28%, 35%);
+    --equals-background-theme2: hsl(6, 63%, 50%);
+    --equals-shadow-theme2: hsl(6, 70%, 34%);
+    --reset-background-theme2: hsl(30, 25%, 89%);
+    --reset-shadow-theme2: hsl(28, 16%, 65%);
+    --main-text-theme2: hsl(60, 10%, 19%);
+    --second-text-theme2: hsl(0, 0, 100%);
+
+
+    --main-background-theme3: hsl(222, 26%, 31%);
+    --toogle-background-theme3: hsl(223, 31%, 20%);
+    --screen-background-theme3: hsl(224, 36%, 15%);
+    --key-background-theme3: hsl(225, 21%, 49%);
+    --key-shadow-theme3: hsl(224, 28%, 35%);
+    --equals-background-theme3: hsl(6, 63%, 50%);
+    --equals-shadow-theme3: hsl(6, 70%, 34%);
+    --reset-background-theme3: hsl(30, 25%, 89%);
+    --reset-shadow-theme3: hsl(28, 16%, 65%);
+    --main-text-theme3: hsl(52, 100%, 62%);
+    --second-text-theme3: hsl(198, 20%, 13%);
+    --third-text-theme3: hsl(0, 0, 100%);
+}

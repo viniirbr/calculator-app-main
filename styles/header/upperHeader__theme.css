@@ -1,0 +1,5 @@
+.upperHeader__theme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
