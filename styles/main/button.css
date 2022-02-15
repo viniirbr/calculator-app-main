@@ -1,0 +1,11 @@
+.button {
+
+}
+
+.button--reset {
+    grid-column: 1/3;
+}
+
+.button--equals {
+    grid-column: 3/5;
+}
