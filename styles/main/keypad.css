@@ -11,3 +11,15 @@
     padding: 5%;
     box-sizing: border-box;
 }
+
+.keypad--theme1 {
+    background: var(--toogle-background-theme1);
+}
+
+.keypad--theme2 {
+    background: var(--toogle-background-theme2);
+}
+
+.keypad--theme3 {
+    background: var(--toogle-background-theme3);
+}

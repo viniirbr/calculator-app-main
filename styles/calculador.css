@@ -7,3 +7,15 @@
     padding: 20px;
     box-sizing: border-box;
 }
+
+.calculator--theme1 {
+    background: var(--main-background-theme1);
+}
+
+.calculator--theme2 {
+    background: var(--main-background-theme2);
+}
+
+.calculator--theme3 {
+    background: var(--main-background-theme3);
+}
