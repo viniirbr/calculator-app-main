@@ -19,15 +19,15 @@
 }
 
 .button--theme2 {
-    background: var(--key-background-theme1);
-    border-bottom: 4px var(--key-shadow-theme1) solid;
-    color: var(--second-text-theme1);
+    background: var(--key-background-theme2);
+    border-bottom: 4px var(--key-shadow-theme2) solid;
+    color: var(--main-text-theme2);
 }
 
 .button--theme3 {
-    background: var(--key-background-theme1);
-    border-bottom: 4px var(--key-shadow-theme1) solid;
-    color: var(--second-text-theme1);
+    background: var(--key-background-theme3);
+    border-bottom: 4px var(--key-shadow-theme3) solid;
+    color: var(--main-text-theme3);
 }
 
 .button--reset {
@@ -49,7 +49,7 @@
 .button--reset--theme3 {
     background: var(--reset-background-theme3);
     border-bottom: 4px var(--reset-shadow-theme3) solid;
-    color: var(--key-background-theme3);
+    color: var(--second-text-theme3);
 }
 
 .button--equals {

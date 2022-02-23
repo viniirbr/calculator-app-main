@@ -1,3 +1,15 @@
 .upperHeader__title {
-    
+    font-size: 1.7rem;
+}
+
+.upperHeader__title--theme1 {
+    color: var(--main-text-theme1);
+}
+
+.upperHeader__title--theme2 {
+    color: var(--main-text-theme2);
+}
+
+.upperHeader__title--theme3 {
+    color: var(--main-text-theme3);
 }

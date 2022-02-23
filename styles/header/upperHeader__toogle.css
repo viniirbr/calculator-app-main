@@ -1,0 +1,46 @@
+.upperHeader__toogle {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 20px;
+}
+
+.upperHeader__toogle--theme1 {
+    background: var(--toogle-background-theme1);
+}
+
+.upperHeader__toogle--theme2 {
+    background: var(--toogle-background-theme2);
+}
+
+.upperHeader__toogle--theme3 {
+    background: var(--toogle-background-theme3);
+}
+
+.upperHeader__toogle-ball {
+    content: '';
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -18px;
+    bottom: 20px;
+    transform: scale(0.8);
+    transition: left .1s ease-in-out;
+    border-radius: 100%;
+}
+
+.upperHeader__toogle-ball--theme1 {
+    background: var(--equals-background-theme1);
+}
+
+.upperHeader__toogle-ball--theme2 {
+    background: var(--equals-background-theme2);
+}
+
+.upperHeader__toogle-ball--theme3 {
+    background: var(--equals-background-theme3);
+}
+

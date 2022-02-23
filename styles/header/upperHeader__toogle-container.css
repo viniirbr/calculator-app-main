@@ -1,0 +1,7 @@
+.upperHeader__toogle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}

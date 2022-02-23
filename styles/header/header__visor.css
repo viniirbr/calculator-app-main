@@ -15,11 +15,11 @@
 }
 
 .header__visor--theme2 {
-    background: var(--screen-background-theme1);
-    color: var(--main-text-theme1);   
+    background: var(--screen-background-theme2);
+    color: var(--main-text-theme2);   
 }
 
-.header__visor--theme2 {
-    background: var(--screen-background-theme1);
-    color: var(--main-text-theme1);
+.header__visor--theme3 {
+    background: var(--screen-background-theme3);
+    color: var(--main-text-theme3);
 }

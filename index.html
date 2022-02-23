@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="styles/header/upperHeader__title.css">
   <link rel="stylesheet" href="styles/header/upperheader__theme.css">
   <link rel="stylesheet" href="styles/header/upperHeader__themeTitle.css">
+  <link rel="stylesheet" href="styles/header/upperHeader__toogle-container.css">
+  <link rel="stylesheet" href="styles/header/upperHeader__toogle-options.css">
   <link rel="stylesheet" href="styles/header/upperHeader__toogle.css">
   <link rel="stylesheet" href="styles/header/header__visor.css">
   <link rel="stylesheet" href="styles/main/keypad.css">
@@ -31,13 +33,14 @@
     <header class="header header--theme1">
 
       <div class="upperHeader">
-        <h3 class="upperHeader__title">calc</h3>
+        <h3 class="upperHeader__title upperHeader__title--theme1">calc</h3>
         <div class="upperHeader__theme">
-          <h4 class="upperHeader__themeTitle">THEME</h4>
-          <label class="upperHeader__toogle">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-          </label>
+          <h4 class="upperHeader__themeTitle upperHeader__themeTitle--theme1">THEME</h4>
+          <div class="upperHeader__toogle-container">
+            <p class="upperHeader__toogle-options upperHeader__toogle-options--theme1">123</p>
+            <input type="checkbox" class="upperHeader__toogle upperHeader__toogle--theme1" toogle>
+            <span class="upperHeader__toogle-ball upperHeader__toogle-ball--theme1" toogleBall></span>
+          </div>
         </div>
       </div>
       <input type="text" class="header__visor header__visor--theme1">
@@ -64,7 +67,7 @@
       <button class="button button--equals button--equals--theme1">=</button>
     </div>
   </main>
-
+<script type="module" src="scripts/index.js"></script>
 </body>
 
 </html>

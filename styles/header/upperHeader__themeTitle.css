@@ -1,3 +1,15 @@
 .upperHeader__themeTitle {
     font-size: 10px;
 }
+
+.upperHeader__themeTitle--theme1 {
+    color: var(--main-text-theme1);
+}
+
+.upperHeader__themeTitle--theme2 {
+    color: var(--main-text-theme2);
+}
+
+.upperHeader__themeTitle--theme3 {
+    color: var(--main-text-theme3);
+}

@@ -1,0 +1,19 @@
+.upperHeader__toogle-options {
+    font-size: 0.5rem;
+    letter-spacing: 13px;
+    text-align: center;
+    position: relative;
+    left: 7px;
+}
+
+.upperHeader__toogle-options--theme1 {
+    color: var(--main-text-theme1);
+}
+
+.upperHeader__toogle-options--theme2 {
+    color: var(--main-text-theme2);
+}
+
+.upperHeader__toogle-options--theme3 {
+    color: var(--main-text-theme3);
+}
