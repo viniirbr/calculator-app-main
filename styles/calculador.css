@@ -19,3 +19,11 @@
 .calculator--theme3 {
     background: var(--main-background-theme3);
 }
+
+@media screen and (max-width: 520px) {
+    .calculator {
+        padding: 5px;
+        width: 350px;
+
+    }
+}

@@ -19,7 +19,7 @@
     --equals-background-theme2: hsl(25, 98%, 40%);
     --equals-shadow-theme2: hsl(6, 70%, 34%);
     --reset-background-theme2: hsl(185, 42%, 37%);
-    --reset-shadow-theme2: hsl(28, 16%, 65%);
+    --reset-shadow-theme2: hsl(185, 58%, 25%);
     --main-text-theme2: hsl(60, 10%, 19%);
     --second-text-theme2: hsl(0, 0, 100%);
 
@@ -32,7 +32,7 @@
     --equals-background-theme3: hsl(176, 100%, 44%);
     --equals-shadow-theme3: hsl(177, 92%, 70%);
     --reset-background-theme3: hsl(290, 70%, 36%);
-    --reset-shadow-theme3: hsl(268, 47%, 21%);
+    --reset-shadow-theme3: hsl(285, 91%, 52%);
     --main-text-theme3: hsl(52, 100%, 62%);
     --second-text-theme3: hsl(198, 20%, 13%);
     --third-text-theme3: hsl(0, 0, 100%);

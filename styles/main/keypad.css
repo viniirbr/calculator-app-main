@@ -23,3 +23,11 @@
 .keypad--theme3 {
     background: var(--toogle-background-theme3);
 }
+
+@media screen and (max-width: 520px) {
+.keypad {
+    gap:14px;
+    height: 100%;
+    padding: 5% 5% 0 5%;
+}
+}

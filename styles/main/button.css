@@ -32,6 +32,7 @@
 
 .button--reset {
     grid-column: 1/3;
+    font-size: 1rem;
 }
 
 .button--reset--theme1 {
@@ -49,11 +50,12 @@
 .button--reset--theme3 {
     background: var(--reset-background-theme3);
     border-bottom: 4px var(--reset-shadow-theme3) solid;
-    color: var(--second-text-theme3);
+    color: var(--third-text-theme3);
 }
 
 .button--equals {
     grid-column: 3/5;
+    font-size: 1rem;
 }
 
 .button--equals--theme1 {
@@ -72,4 +74,8 @@
     background: var(--equals-background-theme3);
     border-bottom: 4px var(--equals-shadow-theme3) solid;
     color: var(--key-background-theme3);
+}
+
+.button--del {
+    font-size: 1rem;
 }
