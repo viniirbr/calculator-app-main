@@ -11,8 +11,6 @@ export function changeMode(elementFromClass, counter) {
             elementClasses = elementClasses.replace(regex, `theme${counter}`)
             elementFromClass[i].className = elementClasses
         }
-        console.log(counter)        
-        console.log(elementClasses) 
 
     }
 }
