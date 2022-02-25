@@ -23,3 +23,9 @@ body {
 .body--theme3 {
     background: var(--main-background-theme3);
 }
+
+@media screen and (max-width: 520px) {
+    body {
+        align-items: baseline;
+    }
+}
