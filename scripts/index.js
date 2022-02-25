@@ -1,4 +1,5 @@
 import { changeMode } from './ChangeMode.js'
+import { handleKeypadEvents } from './handleKeypadEvents.js'
 
 const toogleBall = document.querySelector('[toogleBall]')
 const buttons = document.querySelectorAll('.button')
@@ -47,36 +48,10 @@ toogleBall.addEventListener('click', () => {
 })
 
 const headerVisor = document.querySelector('.header__visor')
+var textDisplay = headerVisor.value;
 const operations = ['+', '-', 'x', '/']
 
-buttons.forEach((but) => {
-    but.addEventListener('click', () => {
-        var buttonClicked = but.textContent
-        var textDisplay = headerVisor.value; 
-        console.log(textDisplay)       
+handleKeypadEvents()
 
-        if (buttonClicked !== 'RESET' && buttonClicked !== 'DEL' && buttonClicked !== '=') {
-            textDisplay = textDisplay.concat(buttonClicked)
-            headerVisor.value = textDisplay
-        }
-
-        if (buttonClicked == 'DEL') {
-            textDisplay = textDisplay.slice(0, (textDisplay.length) - 1)
-            headerVisor.value = textDisplay
-        }
-
-        if (buttonClicked == 'RESET') {
-            textDisplay = textDisplay.slice(0, 0)
-            headerVisor.value = textDisplay
-        }
-
-        if (operations.includes(textDisplay.charAt(textDisplay.length-2))) {
-            var firstPart = textDisplay.slice(0, textDisplay.length-2)
-            var secondPart = textDisplay.slice(textDisplay.length-1, textDisplay.length)
-            textDisplay = firstPart.concat(secondPart)
-            headerVisor.value = textDisplay
-        }
-    })
-})
 
 
