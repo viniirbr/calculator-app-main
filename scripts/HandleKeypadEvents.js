@@ -1,4 +1,4 @@
-import { calculate } from './Calculate.js'
+import { calculate } from './calculate.js'
 
 export function handleKeypadEvents() {
     const headerVisor = document.querySelector('.header__visor')

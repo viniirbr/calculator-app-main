@@ -1,55 +1,50 @@
-import { changeMode } from './ChangeMode.js'
+import { changeMode } from './changeMode.js'
 import { handleKeypadEvents } from './handleKeypadEvents.js'
 
 const toogleBall = document.querySelector('[toogleBall]')
-const buttons = document.querySelectorAll('.button')
 
 
-var counter = 1;
+var theme = 1;
 toogleBall.addEventListener('click', () => {
     toogleBall.style = 'left: 0px'
-    counter++
-    if (counter == 4) {
-        counter = 1;
+    theme++
+    if (theme == 4) {
+        theme = 1;
     }
-    switch (counter) {
+    switch (theme) {
         case 1: toogleBall.style = 'left: -19px'; break;
         case 2: toogleBall.style = 'left: 0px'; break;
         case 3: toogleBall.style = 'left: 19px'; break;
     }
 
     const buttons = document.querySelectorAll('.button')
-    changeMode(buttons, counter)
+    changeMode(buttons, theme)
 
     const body = document.getElementsByTagName('body')
-    changeMode(body, counter)
+    changeMode(body, theme)
 
     const keypad = document.querySelectorAll('.keypad')
-    changeMode(keypad, counter)
+    changeMode(keypad, theme)
 
     const headerVisor = document.querySelectorAll('.header__visor')
-    changeMode(headerVisor, counter)
+    changeMode(headerVisor, theme)
 
     const upperHeaderThemeTitle = document.querySelectorAll('.upperHeader__themeTitle')
-    changeMode(upperHeaderThemeTitle, counter)
+    changeMode(upperHeaderThemeTitle, theme)
 
     const upperHeaderTitle = document.querySelectorAll('.upperHeader__title')
-    changeMode(upperHeaderTitle, counter)
+    changeMode(upperHeaderTitle, theme)
 
     const toogle = document.querySelectorAll('.upperHeader__toogle')
-    changeMode(toogle, counter)
+    changeMode(toogle, theme)
 
     const toogleBallMod = document.querySelectorAll('.upperHeader__toogle-ball')
-    changeMode(toogleBallMod, counter)
+    changeMode(toogleBallMod, theme)
 
     const toogleOptions = document.querySelectorAll('.upperHeader__toogle-options')
-    changeMode(toogleOptions, counter)
+    changeMode(toogleOptions, theme)
 
 })
-
-const headerVisor = document.querySelector('.header__visor')
-var textDisplay = headerVisor.value;
-const operations = ['+', '-', 'x', '/']
 
 handleKeypadEvents()
 

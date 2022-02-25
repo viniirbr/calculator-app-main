@@ -1,5 +1,6 @@
 export const calculate = (num1, num2, operation) => {
     var result;
+    
     switch (operation) {
         case '+': 
         result = num1+num2;
