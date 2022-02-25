@@ -5,3 +5,10 @@
     height: 60px;
 }
 
+.upperHeader__theme {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
