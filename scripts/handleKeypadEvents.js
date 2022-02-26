@@ -7,6 +7,7 @@ export function handleKeypadEvents() {
     const buttons = document.querySelectorAll('.button')
 
     buttons.forEach((but) => {
+
         but.addEventListener('click', () => {
             var buttonClicked = but.textContent
 
@@ -14,18 +15,6 @@ export function handleKeypadEvents() {
                 //Dealing with number keys and operation keys
                 if (buttonClicked !== 'RESET' && buttonClicked !== 'DEL' && buttonClicked !== '=') {
                     textDisplay = textDisplay.concat(buttonClicked)
-                    headerVisor.value = textDisplay
-                }
-
-                //DELETE functionality
-                if (buttonClicked == 'DEL') {
-                    textDisplay = textDisplay.slice(0, (textDisplay.length) - 1)
-                    headerVisor.value = textDisplay
-                }
-
-                //RESET functionality
-                if (buttonClicked == 'RESET') {
-                    textDisplay = textDisplay.slice(0, 0)
                     headerVisor.value = textDisplay
                 }
 
@@ -45,8 +34,20 @@ export function handleKeypadEvents() {
                         }
                     }
                 }
+            }
 
-                if (buttonClicked == '=') {
+            //DELETE functionality
+            if (buttonClicked == 'DEL') {
+                textDisplay = textDisplay.slice(0, (textDisplay.length) - 1)
+                headerVisor.value = textDisplay
+            }
+
+            //RESET functionality
+            if (buttonClicked == 'RESET') {
+                textDisplay = ''
+                headerVisor.value = textDisplay
+            }
+            if (buttonClicked == '=') {
                     for (var op of operations) {
                         //textDisplay.indexOf(op)
                         if (textDisplay.indexOf(op) != -1) {
@@ -57,7 +58,9 @@ export function handleKeypadEvents() {
                         }
                     }
                 }
-            }
         })
+        
     })
+
+    
 }
